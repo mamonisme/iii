@@ -61,7 +61,7 @@
   "navigation": {
     "versions": [
       {
-        "version": "0.18.x",
+        "version": "0.19.x",
         "tag": "Next",
         "tabs": [
           {
@@ -176,7 +176,7 @@
         ]
       },
       {
-        "version": "0.17.x",
+        "version": "0.18.x",
         "tag": "Latest",
         "default": true,
         "tabs": [
@@ -226,6 +226,24 @@
             ]
           },
           {
+            "tab": "Tutorials",
+            "groups": [
+              {
+                "group": "Linkly",
+                "pages": [
+                  "tutorials/linkly/overview",
+                  "tutorials/linkly/foundations",
+                  "tutorials/linkly/observability",
+                  "tutorials/linkly/persistence",
+                  "tutorials/linkly/durable-execution",
+                  "tutorials/linkly/streaming",
+                  "tutorials/linkly/channels",
+                  "tutorials/linkly/frontend"
+                ]
+              }
+            ]
+          },
+          {
             "tab": "SDK & Engine Reference",
             "groups": [
               {
@@ -241,6 +259,102 @@
                   "sdk-reference/python-sdk",
                   "sdk-reference/rust-sdk",
                   "sdk-reference/browser-sdk"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Changelog",
+            "groups": [
+              {
+                "group": "Changelog",
+                "pages": [
+                  "changelog/index"
+                ]
+              },
+              {
+                "group": "0.16.0",
+                "pages": [
+                  "changelog/0-16-0/align-rust-register-function-with-signature"
+                ]
+              },
+              {
+                "group": "0.11.0",
+                "pages": [
+                  "changelog/0-11-0/everything-is-a-worker",
+                  "changelog/0-11-0/migrating-from-motia-js",
+                  "changelog/0-11-0/migrating-from-motia-py",
+                  "changelog/0-11-0/migrated-examples"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "version": "0.17.x",
+        "tabs": [
+          {
+            "tab": "Docs",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "0-17-0/index",
+                  "0-17-0/install",
+                  "0-17-0/quickstart"
+                ]
+              },
+              {
+                "group": "Using iii",
+                "pages": [
+                  "0-17-0/using-iii/workers",
+                  "0-17-0/using-iii/workers-registry",
+                  "0-17-0/using-iii/triggers",
+                  "0-17-0/using-iii/functions",
+                  "0-17-0/using-iii/engine",
+                  "0-17-0/using-iii/console",
+                  "0-17-0/using-iii/cli",
+                  "0-17-0/using-iii/deployment"
+                ]
+              },
+              {
+                "group": "Understanding iii",
+                "expanded": false,
+                "pages": [
+                  "0-17-0/understanding-iii/index",
+                  "0-17-0/understanding-iii/engine",
+                  "0-17-0/understanding-iii/channels"
+                ]
+              },
+              {
+                "group": "Creating Workers",
+                "pages": [
+                  "0-17-0/creating-workers/index",
+                  "0-17-0/creating-workers/workers",
+                  "0-17-0/creating-workers/triggers",
+                  "0-17-0/creating-workers/functions",
+                  "0-17-0/creating-workers/channels"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "SDK & Engine Reference",
+            "groups": [
+              {
+                "group": "Engine protocol",
+                "pages": [
+                  "0-17-0/sdk-reference/engine-sdk"
+                ]
+              },
+              {
+                "group": "Language SDKs",
+                "pages": [
+                  "0-17-0/sdk-reference/node-sdk",
+                  "0-17-0/sdk-reference/python-sdk",
+                  "0-17-0/sdk-reference/rust-sdk",
+                  "0-17-0/sdk-reference/browser-sdk"
                 ]
               }
             ]
